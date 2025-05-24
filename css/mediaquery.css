@@ -311,6 +311,25 @@
 	.idz-block-text {
 		margin-bottom: 30px !important;
 	}
+
+	/* Footer widget adjustments */
+	.uk-width-1-4.uk-width-large-1-4.uk-width-medium-1-3.uk-width-small-1-2 {
+		width: 100% !important;
+		margin-bottom: 30px;
+	}
+
+	.idz-footer-widget {
+		text-align: center;
+	}
+
+	.idz-footer-widget .uk-list.footer-menu {
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	.idz-footer-widget h4 {
+		margin-bottom: 15px;
+	}
 }
 
 /* [ 4. mobile potrait ] */
@@ -486,4 +505,485 @@
 	#pre-footer .uk-button-xlarge {
 	    margin-bottom: 15px;
 	}
+
+	/* Footer widget adjustments */
+	.uk-width-1-4.uk-width-large-1-4.uk-width-medium-1-3.uk-width-small-1-2 {
+		width: 100% !important;
+		margin-bottom: 30px;
+	}
+
+	.idz-footer-widget {
+		text-align: center;
+	}
+
+	.idz-footer-widget .uk-list.footer-menu {
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	.idz-footer-widget h4 {
+		margin-bottom: 15px;
+	}
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+    /* Header adjustments */
+    header#idz-header {
+        min-height: auto;
+        padding-bottom: 40px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .idz-header-wrapper .idz-top-header {
+        padding: 15px 0;
+    }
+
+    /* Logo adjustments */
+    .idz-logo img {
+        max-width: 160px;
+        height: auto;
+    }
+
+    /* Navigation adjustments */
+    .idz-menu {
+        position: relative;
+        margin-top: -45px;
+    }
+
+    .uk-navbar-toggle {
+        position: absolute;
+        right: 15px;
+        top: 0;
+        color: #fff;
+    }
+
+    /* Header content adjustments */
+    .idz-header-content {
+        text-align: center;
+        padding: 20px 15px;
+    }
+
+    .idz-header-content h1 {
+        font-size: 28px !important;
+        line-height: 1.3 !important;
+        margin-bottom: 20px;
+    }
+
+    .idz-header-intro p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    /* Button adjustments */
+    .idz-button-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .idz-button-block a {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Float image adjustments */
+    .uk-img-preserve.idz-float-img {
+        position: relative;
+        top: 20px;
+        max-width: 100% !important;
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .uk-width-large-5-10.uk-width-medium-1-3.uk-width-small-1-3 {
+        width: 100% !important;
+        margin-top: 20px;
+    }
+
+    /* Features Section */
+    #idz-features .uk-grid > div {
+        margin-bottom: 30px;
+    }
+
+    .idz-feature-box {
+        text-align: center;
+    }
+
+    .idz-heading-with-icon i {
+        font-size: 80px;
+        top: -30px;
+    }
+
+    /* Subscription Form */
+    .idz-subscription-form {
+        padding: 20px;
+        /* margin: 0 15px; */
+    }
+
+    .form-stamp {
+        display: none;
+    }
+
+    /* Features 2 Section */
+    #idz-features2 {
+        padding: 60px 0 !important;
+        position: relative;
+    }
+
+    #idz-features2 .uk-width-4-10,
+    #idz-features2 .uk-width-large-4-10,
+    #idz-features2 .uk-width-medium-3-5 {
+        width: 100%;
+        padding: 0 20px;
+        margin-bottom: 30px;
+    }
+
+    #idz-features2 h2.txt42 {
+        font-size: 32px !important;
+        line-height: 1.3;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    #idz-features2 p.txtwhite {
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: center;
+        margin-bottom: 30px !important;
+    }
+
+    #idz-features2 .uk-text-left {
+        text-align: center !important;
+    }
+
+    #idz-features2 .idz-section-img {
+        position: relative;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #idz-features2 .uk-img-preserve.idz-float-img {
+        position: relative;
+        max-width: 90%;
+        margin: 0 auto;
+        display: block;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+
+    #idz-features2 .idz-gradient-overlay {
+        opacity: 0.7;
+    }
+
+    #idz-features2 .uk-width-6-10,
+    #idz-features2 .uk-width-large-6-10,
+    #idz-features2 .uk-width-medium-2-5 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /* About Section */
+    #idz-about .uk-list-line > li {
+        padding: 15px 0;
+    }
+
+    .idz-about-list-content {
+        margin-left: 60px;
+    }
+
+    .icon-wrap.circle {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    /* Order Features */
+    .idz-order-features {
+        margin-top: 30px;
+    }
+
+    .idz-order-features-item {
+        margin-bottom: 20px;
+    }
+
+    /* Pricing Section */
+    #idz-pricing .idz-pricing-box {
+        padding: 30px 15px;
+    }
+
+    .idz-price-list > li {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .idz-price-item {
+        padding: 15px;
+    }
+
+    /* Footer */
+    #idz-footer {
+        padding: 40px 0 20px;
+        text-align: center;
+    }
+
+    .idz-footer-widget {
+        margin-bottom: 30px;
+    }
+
+    .idz-footer-social {
+        margin-top: 20px;
+    }
+
+    .copyright {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* Modal Form */
+    .uk-modal-dialog {
+        width: 90%;
+        margin: 20px auto !important;
+    }
+
+    #order-book-form .uk-form-row {
+        margin-bottom: 15px;
+    }
+
+    #idz-features2 {
+        max-height: none;
+    }
+
+    #idz-features2.style2 {
+        max-height: none;
+    }
+
+    #idz-features2.style2 .idz-gradient-overlay {
+        max-height: none;
+    }
+
+    /* About list adjustments */
+    .uk-list.uk-list-line.idz-about-list {
+        margin: 0;
+        padding: 0;
+    }
+
+    .uk-list.uk-list-line.idz-about-list > li {
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .icon-wrap.circle {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        margin: 0 0 15px 0;
+        float: none;
+    }
+
+    .idz-about-list-content {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .idz-about-list-content h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .idz-about-list-content p {
+        font-size: 15px;
+        line-height: 1.5;
+        margin: 0;
+    }
+
+    /* Slider navigation buttons */
+    .uk-slidenav-position .uk-slidenav {
+        display: block;
+        position: absolute;
+        top: auto;
+        bottom: -80px;
+        z-index: 1;
+        background: rgba(255, 255, 255, 0.9);
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        color: #333;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .uk-slidenav-position.idz-testi-slider .uk-slidenav-previous {
+        left: 35%;
+        right: auto;
+    }
+
+    .uk-slidenav-position.idz-testi-slider .uk-slidenav-next {
+        right: 35%;
+        left: auto;
+    }
+
+    /* Add more spacing for slider content */
+    .idz-testi-slider {
+        margin-bottom: 20px;
+    }
+
+    /* Adjust testimonial spacing */
+    .idz-testimonials {
+        margin-bottom: 40px !important;
+    }
+}
+
+/* Desktop and larger screens */
+@media (min-width: 768px) {
+    .uk-slidenav-position.idz-testi-slider .uk-slidenav-previous {
+        left: auto;
+        right: 12%;
+    }
+
+    .uk-slidenav-position.idz-testi-slider .uk-slidenav-next {
+        right: 8%;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 959px) {
+    header#idz-header {
+        min-height: auto;
+        background-size: cover;
+    }
+
+    .idz-header-content h1 {
+        font-size: 32px !important;
+        line-height: 1.4 !important;
+    }
+
+    .idz-float-img {
+        max-width: 90%;
+        top: 40px;
+    }
+
+    /* Features Section */
+    .idz-feature-box {
+        margin-bottom: 30px;
+    }
+
+    /* Features 2 Section */
+    #idz-features2 .uk-width-4-10 {
+        width: 50%;
+    }
+
+    #idz-features2 .uk-width-6-10 {
+        width: 50%;
+    }
+
+    /* About Section */
+    .idz-about-list-content {
+        margin-left: 70px;
+    }
+
+    /* Pricing Section */
+    .idz-price-list > li {
+        padding: 0 15px;
+    }
+
+    .uk-img-preserve.idz-float-img {
+        max-width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .uk-width-large-5-10.uk-width-medium-1-3.uk-width-small-1-3 {
+        width: 50% !important;
+    }
+
+    #idz-features2 {
+        max-height: none;
+    }
+}
+
+/* Large Screens */
+@media (min-width: 960px) {
+    .idz-header-content {
+        padding-right: 40px;
+    }
+
+    .idz-float-img {
+        max-width: 100%;
+    }
+}
+
+/* Additional Responsive Fixes */
+@media (max-width: 480px) {
+    .idz-header-content h1 {
+        font-size: 24px !important;
+    }
+
+    .idz-subscription-form input[type] {
+        font-size: 14px;
+    }
+
+    #idz-features2 h2 {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+
+    .idz-price-item p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    #pre-footer h2 {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+
+    #idz-features2 {
+        padding: 40px 0 !important;
+    }
+
+    #idz-features2 h2.txt42 {
+        font-size: 28px !important;
+    }
+
+    #idz-features2 p.txtwhite {
+        font-size: 15px;
+        line-height: 1.5;
+        padding: 0 10px;
+    }
+
+    #idz-features2 .uk-img-preserve.idz-float-img {
+        max-width: 100%;
+    }
+}
+
+/* Fix for Modal on Mobile */
+@media (max-width: 640px) {
+    .uk-modal-dialog {
+        width: 95%;
+        padding: 15px;
+    }
+
+    #order-book-form .uk-form-row > div {
+        width: 100%;
+    }
+
+    #order-book-form input[type="text"],
+    #order-book-form input[type="tel"],
+    #order-book-form select,
+    #order-book-form textarea {
+        font-size: 14px;
+        padding: 8px;
+    }
 }
